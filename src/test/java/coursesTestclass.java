@@ -35,7 +35,6 @@ public class coursesTestclass {
     @Test
     public void validateChildTab() throws InterruptedException {
         coursesPage cp = new coursesPage(driver);
-        String parentWindowHandles=driver.getWindowHandle();
         cp.clickOnSeleniumJavalink();
         Set<String> allhandles= driver.getWindowHandles();
         System.out.println(driver.getTitle());
