@@ -29,6 +29,7 @@ public class loginTestcases {
 
         String expctedTitle = "Logged In Successfully | Practice Test Automation";
         Assert.assertEquals(actualTitle,expctedTitle);
+
     }
 
     @Test(groups="login")
